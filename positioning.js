@@ -1,7 +1,7 @@
 function positioning(string) {
   var letterPosition = {};
   for (var index in string) {
-    var letter = string[index]
+    var letter = string[index];
     if (letter === " ") continue;
     if (!(letter in letterPosition)) {
       letterPosition[letter] = [];
